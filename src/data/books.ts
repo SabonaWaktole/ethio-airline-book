@@ -68,8 +68,8 @@ export const books: Book[] = [
     publishedYear: 2022,
     rating: 4.8,
     totalRatings: 1247,
-    isNew: true,
-    isPopular: true,
+    isNew: false,
+    isPopular: false,
     chapters: [
       { id: '1-1', title: 'Chapter 1', duration: 175, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//Qaalii.mp3' },
       { id: '1-2', title: 'Chapter 2', duration: 175, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//Qaalii.mp3' },
@@ -199,6 +199,8 @@ export const books: Book[] = [
     publishedYear: 2022,
     rating: 4.4,
     totalRatings: 834,
+    isPopular: true,
+    isNew: true,
     chapters: [
       { id: '7-1', title: 'Chapter 1', duration: 100, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//merimihretu.mp3' },
       { id: '7-2', title: 'Chapter 2', duration: 100, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//merimihretu.mp3' },
