@@ -20,6 +20,7 @@ export const Hero: React.FC = () => {
   };
 
   const handleRandomPlay = (cardType: string) => {
+    console.log(cardType)
     // Select a random book from the library
     const randomIndex = Math.floor(Math.random() * books.length);
     const randomBook = books[randomIndex];

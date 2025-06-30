@@ -1,5 +1,5 @@
 import React from 'react';
-import { Eye, Star, Clock, User, Play } from 'lucide-react';
+import {  Star, Clock, User, Play } from 'lucide-react';
 import { Book } from '../types';
 import { useApp } from '../contexts/AppContext';
 import { useLanguage } from '../contexts/LanguageContext';

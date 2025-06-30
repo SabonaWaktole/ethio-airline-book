@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Play, Pause, FileText, Download, Clock, Star, User, Calendar, CheckCircle, SkipForward, SkipBack, X, ChevronUp, ChevronDown, BookOpen, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Play, Pause, FileText, Clock, Star, User, Calendar, CheckCircle, SkipForward, SkipBack, X, ChevronUp, ChevronDown, BookOpen, RotateCcw } from 'lucide-react';
 import { useApp } from '../contexts/AppContext';
 import { useLanguage } from '../contexts/LanguageContext';
 import { books } from '../data/books';

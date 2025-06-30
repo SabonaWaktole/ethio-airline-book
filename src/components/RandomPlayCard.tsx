@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shuffle, Play, Headphones } from 'lucide-react';
+import { Shuffle, Play } from 'lucide-react';
 import { useApp } from '../contexts/AppContext';
 import { useLanguage } from '../contexts/LanguageContext';
 import { books } from '../data/books';
