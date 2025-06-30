@@ -213,7 +213,8 @@ export const books: Book[] = [
     genre: 'Fiction',
     language: 'Amharic',
     duration: 9,
-    description: 'An engaging story that explores the emotional journey of Mneneh.',
+    description: `This collection of seven unique short stories explores the human experience through mystery, drama, love, loss, and unexpected twists. Each tale stands alone—yet together they offer a rich tapestry of emotions, characters, and moments that linger long after the last page is turned.
+                  From quiet encounters that change a life to dramatic revelations that shake the soul, these stories invite readers on a journey across different worlds, cultures, and perspectives. Whether you enjoy suspenseful turns, heartfelt journeys, or reflective moments, this collection has something for every fiction lover`,
     coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//mneneh.jpg',
     audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//mneneh.mp3',
     pdfUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/pdfbook//mneneh.pdf',
@@ -339,7 +340,8 @@ export const books: Book[] = [
     genre: 'Drama',
     language: 'Amharic',
     duration: 7,
-    description: 'An intriguing drama narrated with cultural depth.',
+    description: `This book is a rich tapestry of storytelling, featuring seven distinct short stories, each with its own unique style, theme, and narrative voice. From heartwarming tales to thrilling adventures, thought-provoking dramas to whimsical fantasies, this collection offers a diverse literary experience. Perfect for readers who love variety, these stories come together to create a compelling journey through different worlds, emotions, and ideas.
+መድብሏ በውስጧ ሰባት አጫጭር ታሪኮችን አካትታለች። የእንጎቻ ታሪክ እንደሚሉቱ አጠር ተደርገው በየራሳቸው ታሪክ ጀምረው ጨርሰዋል። በሀገር ውስጥም ሆነ ከኢትዩጵያ ውጪ ከተኖረ ህይወት ተጨልፈው በአንደኛና ሁለተኛ መደብ የተተረኩ ስለሆኑ በሁለቱም ቦታ የሚኖር ተደራሲ ቢያነባቸው ለስሜት ቅርብ ናቸው። በመሆኑም ለናንተም ለእኛም ተፅፈዋልና አይወክሉንም አይባልም።`,
     coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//5guday.jpg',
     audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//5guday.mp3',
     pdfUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/pdfbook//5guday.pdf',
