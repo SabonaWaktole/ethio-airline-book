@@ -146,7 +146,7 @@ export const books: Book[] = [
     title: 'Irbooricha',
     author: 'Webi Kebede',
     narrator: 'unknown',
-    genre: 'Fiction',
+    genre: 'History',
     language: 'Afaan Oromo',
     duration: 7,
     description: 'A masterful portrait of the rise and fall of Ethiopia\'s last emperor, exploring power, tradition, and the end of an era.',
