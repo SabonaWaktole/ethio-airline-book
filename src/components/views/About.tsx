@@ -33,10 +33,9 @@ export const About: React.FC = () => {
   ];
 
   const stats = [
-    { number: '200+', label: t.books, color: 'text-emerald-600 dark:text-emerald-400' },
-    { number: '50+', label: t.narrators, color: 'text-blue-600 dark:text-blue-400' },
-    { number: '8', label: t.languages, color: 'text-purple-600 dark:text-purple-400' },
-    { number: '10K+', label: t.listeners, color: 'text-orange-600 dark:text-orange-400' }
+    { number: '14+', label: t.books, color: 'text-emerald-600 dark:text-emerald-400' },
+    { number: '6+', label: t.narrators, color: 'text-blue-600 dark:text-blue-400' },
+    { number: '2', label: t.languages, color: 'text-purple-600 dark:text-purple-400' },
   ];
 
   return (
