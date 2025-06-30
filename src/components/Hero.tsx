@@ -108,7 +108,7 @@ export const Hero: React.FC = () => {
                 </div>
                 
                 <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-4 drop-shadow-lg">
-                  United for Amharic Audiobook Innovation
+                  United for Ethiopian Audiobook Innovation
                 </h1>
                 
                 <p className="text-xl lg:text-2xl text-white/95 leading-relaxed drop-shadow-md">
@@ -140,7 +140,7 @@ export const Hero: React.FC = () => {
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                    This platform is developed by Nordic ICT in partnership with Ethiopian Airlines to review and evaluate Amharic audiobooks for in-flight entertainment, bringing Ethiopian culture and literature to travelers worldwide.
+                  Welcome to the Book Review Portal – For Ethiopian Airlines OnlyThis website has been created exclusively for Ethiopian Airlines and its representatives. The purpose is to present and evaluate a selection of audiobooks proposed for possible use onboard Ethiopian Airlines flights
                   </p>
                 </div>
               </div>
