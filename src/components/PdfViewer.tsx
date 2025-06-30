@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut, RotateCw, Download, Loader2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut, RotateCw, Loader2 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 
@@ -24,7 +24,7 @@ export const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, mode, bookTitle })
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loadedPages, setLoadedPages] = useState<Set<number>>(new Set());
-
+  console.log(bookTitle)
   const onDocumentLoadSuccess = useCallback(({ numPages }: { numPages: number }) => {
     setNumPages(numPages);
     setIsLoading(false);
@@ -292,21 +292,6 @@ export const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, mode, bookTitle })
             </TooltipTrigger>
             <TooltipContent>
               <p>{t.rotate || 'Rotate'}</p>
-            </TooltipContent>
-          </Tooltip>
-
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <a
-                href={pdfUrl}
-                download={`${bookTitle}.pdf`}
-                className="p-2 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-              >
-                <Download size={16} />
-              </a>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>{t.downloadPdf}</p>
             </TooltipContent>
           </Tooltip>
         </div>
