@@ -152,7 +152,7 @@ export const books: Book[] = [
     description: 'A masterful portrait of the rise and fall of Ethiopia\'s last emperor, exploring power, tradition, and the end of an era.',
     coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//irbooricha%20-%20cover.jpg',
     audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//Irbooricha%201.mp3',
-    pdfUrl: '',
+    pdfUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/pdfbook//Irbooricha.pdf',
     publishedYear: 2019,
     rating: 4.5,
     totalRatings: 987,
