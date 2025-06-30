@@ -191,16 +191,16 @@ export const About: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:contact@ethio-book.com"
+                href="mailto:contact@nordicict.com"
                 className="inline-flex items-center justify-center bg-white text-emerald-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors"
               >
-                contact@ethio-book.com
+                contact@nordicict.com
               </a>
               <a
                 href="tel:+251911234567"
                 className="inline-flex items-center justify-center bg-white/20 text-white border-2 border-white px-8 py-4 rounded-xl font-semibold hover:bg-white/30 transition-colors"
               >
-                +251 91 123 4567
+                +251 92 581 8585
               </a>
             </div>
           </div>
