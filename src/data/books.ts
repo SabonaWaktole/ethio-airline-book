@@ -171,7 +171,7 @@ export const books: Book[] = [
     language: 'Amharic',
     duration: 11,
     description: 'Philosophical teachings and wisdom from ancient Ethiopian manuscripts, offering insights into traditional Ethiopian thought and spirituality.',
-    coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//mamush.jpg',
+    coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//MammushNew.jpg',
     audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//mamush.mp3',
     pdfUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/pdfbook//mamush.pdf',
     publishedYear: 2023,
@@ -354,6 +354,50 @@ export const books: Book[] = [
       { id: '14-1', title: 'Chapter 1', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//5guday.mp3' },
       { id: '14-2', title: 'Chapter 2', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//5guday.mp3' },
       { id: '14-3', title: 'Chapter 3', duration: 91, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//5guday.mp3' },
+      ]
+  },
+  {
+    id: '15',
+    title: 'Awo esu ga yamegnal',
+    author: 'Adanhom Mittiku',
+    narrator: 'Nesrullah Beshir',
+    genre: 'Drama',
+    language: 'Amharic',
+    duration: 7,
+    description: `This book is a rich tapestry of storytelling, featuring seven distinct short stories, each with its own unique style, theme, and narrative voice. From heartwarming tales to thrilling adventures, thought-provoking dramas to whimsical fantasies, this collection offers a diverse literary experience. Perfect for readers who love variety, these stories come together to create a compelling journey through different worlds, emotions, and ideas.
+መድብሏ በውስጧ ሰባት አጫጭር ታሪኮችን አካትታለች። የእንጎቻ ታሪክ እንደሚሉቱ አጠር ተደርገው በየራሳቸው ታሪክ ጀምረው ጨርሰዋል። በሀገር ውስጥም ሆነ ከኢትዩጵያ ውጪ ከተኖረ ህይወት ተጨልፈው በአንደኛና ሁለተኛ መደብ የተተረኩ ስለሆኑ በሁለቱም ቦታ የሚኖር ተደራሲ ቢያነባቸው ለስሜት ቅርብ ናቸው። በመሆኑም ለናንተም ለእኛም ተፅፈዋልና አይወክሉንም አይባልም።`,
+    coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//AwoEsuga.jpg',
+    audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//AwoWauga.mp3',
+    pdfUrl: '',
+    publishedYear: 2024,
+    rating: 4.6,
+    totalRatings: 377,
+    chapters: [
+      { id: '15-1', title: 'Chapter 1', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//AwoWauga.mp3' },
+      { id: '15-2', title: 'Chapter 2', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//AwoWauga.mp3' },
+      { id: '15-3', title: 'Chapter 3', duration: 91, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//AwoWauga.mp3' },
+      ]
+  },
+  {
+    id: '16',
+    title: 'Menderin Menderin',
+    author: 'Migbar Sraj',
+    narrator: 'Nesrullah Beshir',
+    genre: 'Drama',
+    language: 'Amharic',
+    duration: 7,
+    description: `This book is a rich tapestry of storytelling, featuring seven distinct short stories, each with its own unique style, theme, and narrative voice. From heartwarming tales to thrilling adventures, thought-provoking dramas to whimsical fantasies, this collection offers a diverse literary experience. Perfect for readers who love variety, these stories come together to create a compelling journey through different worlds, emotions, and ideas.
+መድብሏ በውስጧ ሰባት አጫጭር ታሪኮችን አካትታለች። የእንጎቻ ታሪክ እንደሚሉቱ አጠር ተደርገው በየራሳቸው ታሪክ ጀምረው ጨርሰዋል። በሀገር ውስጥም ሆነ ከኢትዩጵያ ውጪ ከተኖረ ህይወት ተጨልፈው በአንደኛና ሁለተኛ መደብ የተተረኩ ስለሆኑ በሁለቱም ቦታ የሚኖር ተደራሲ ቢያነባቸው ለስሜት ቅርብ ናቸው። በመሆኑም ለናንተም ለእኛም ተፅፈዋልና አይወክሉንም አይባልም።`,
+    coverImage: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/imagebooks//MenderinMenderin.jpg',
+    audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//MenderinMenderin.mp3',
+    pdfUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/pdfbook//MenderinMenderin.pdf',
+    publishedYear: 2024,
+    rating: 4.6,
+    totalRatings: 377,
+    chapters: [
+      { id: '16-1', title: 'Chapter 1', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//MenderinMenderin.mp3' },
+      { id: '16-2', title: 'Chapter 2', duration: 92, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//MenderinMenderin.mp3' },
+      { id: '16-3', title: 'Chapter 3', duration: 91, audioUrl: 'https://rjiozcbtszmyehzffzpa.supabase.co/storage/v1/object/public/audiobook//MenderinMenderin.mp3' },
       ]
   }
 ];
